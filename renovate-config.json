@@ -1,7 +1,46 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>kronostechnologies/standards:renovate-base"
+    "config:base"
+  ],
+  "labels": ["dependency-update"],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "addLabels": ["docker"]
+    },
+    {
+      "matchManagers": ["terraform", "terraform-version"],
+      "addLabels": ["terraform"]
+    },
+    {
+      "matchManagers": ["circleci"],
+      "addLabels": ["circleci"]
+    },
+    {
+      "matchManagers": ["composer"],
+      "addLabels": ["composer"]
+    },
+    {
+      "matchDatasources": ["orb"],
+      "addLabels": ["orb"]
+    },
+
+    {
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["major"]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["minor"]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["patch"]
+    }
+  ],
+  "schedule": [
+    "on sunday"
   ],
   "hostRules": [
     {
@@ -26,5 +65,20 @@
         "token": "wcFMA/xDdHCJBTolAQ/+Ov4hbAf1XZlt5CNhR7nedsHsngir4HStH/uZ32VCB4XJ3wuSQ4gVY2PtmKJq+hy06h2HgdQpNgMOVGSr14SySiITWYLnk5JFNBjS/kpIW+2u2qLik5H5rdI/elhu2c+DFWno+1yboEZdknW9stQjHHl1kEUsLkxhxHcSCPbtGOa5GcS3ngclNkOOsm2auHSRYqucn6WU2Ouv2dzQfSuPm7bWj2pAuNUBAVcGliiPFI/X5FkHw4Ym1A6l/LVNdkKGVXNfQEUD42NTiU9CB9oX0UBFNVxcINqkEjSge+06xverbIfiQNjJIlO7rRzauL0vrWcQs3TItuK4gdHhdz0g/omzBJH8Ln1nvjac6KVCokZbypoqw7HNeob27/UjpLyxMykj0nuLGP17arsnnwTwUB2mYcEsVWa7p4hc1o1xiGNtdfme+PW9vbYbqCyiq7FhTfiHf61d0hgbcQRVPfQE8ag3ZXZM2vTGCOp4t4M288lt9cxwYUbenUraOIpJANF+aHjxjfqALyrwlJjAYOOzKj2fXfEwM2lB7G/HPebcIRpKGjV68+Hr5uqL77kxu87fWNJLz3GZ5gwwUwFU0isXWOeO2uZyOejcQNOH5b6zrKKaALzK94LShDagZt2upa/4U94+aifHn+ylj/9+mRj6nWTesQY3gG/bRtIrdUlmiSTSdwGQ2r/K025NRlalMfgn049xFSN2iRzHQmjRrj1adx/o7ZRv/mdI9rqLq1/Qi5pBfGxNmscWIH1l2mHol8NpBMNAeoc381oQU1T7XtN13AgyAvI+0hCdnDRB5vVvcSy4+uOh0m/KXMAVUtiT85/Cgz1uYEtVwp+R"
       }
     }
-  ]
+  ],
+  "java": {
+    "addLabels": ["gradle"],
+    "packageRules": [
+      {
+        "matchPackagePrefixes": ["com.equisoft"],
+        "registryUrls": ["https://maven.pkg.github.com/kronostechnologies/*/"]
+      }
+    ]
+  },
+  "js": {
+    "addLabels": ["yarn"]
+  },
+  "php": {
+    "addLabels": ["composer"]
+  }
 }
