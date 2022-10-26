@@ -25,6 +25,14 @@
       "encrypted": {
         "token": "wcFMA/xDdHCJBTolAQ/+Ov4hbAf1XZlt5CNhR7nedsHsngir4HStH/uZ32VCB4XJ3wuSQ4gVY2PtmKJq+hy06h2HgdQpNgMOVGSr14SySiITWYLnk5JFNBjS/kpIW+2u2qLik5H5rdI/elhu2c+DFWno+1yboEZdknW9stQjHHl1kEUsLkxhxHcSCPbtGOa5GcS3ngclNkOOsm2auHSRYqucn6WU2Ouv2dzQfSuPm7bWj2pAuNUBAVcGliiPFI/X5FkHw4Ym1A6l/LVNdkKGVXNfQEUD42NTiU9CB9oX0UBFNVxcINqkEjSge+06xverbIfiQNjJIlO7rRzauL0vrWcQs3TItuK4gdHhdz0g/omzBJH8Ln1nvjac6KVCokZbypoqw7HNeob27/UjpLyxMykj0nuLGP17arsnnwTwUB2mYcEsVWa7p4hc1o1xiGNtdfme+PW9vbYbqCyiq7FhTfiHf61d0hgbcQRVPfQE8ag3ZXZM2vTGCOp4t4M288lt9cxwYUbenUraOIpJANF+aHjxjfqALyrwlJjAYOOzKj2fXfEwM2lB7G/HPebcIRpKGjV68+Hr5uqL77kxu87fWNJLz3GZ5gwwUwFU0isXWOeO2uZyOejcQNOH5b6zrKKaALzK94LShDagZt2upa/4U94+aifHn+ylj/9+mRj6nWTesQY3gG/bRtIrdUlmiSTSdwGQ2r/K025NRlalMfgn049xFSN2iRzHQmjRrj1adx/o7ZRv/mdI9rqLq1/Qi5pBfGxNmscWIH1l2mHol8NpBMNAeoc381oQU1T7XtN13AgyAvI+0hCdnDRB5vVvcSy4+uOh0m/KXMAVUtiT85/Cgz1uYEtVwp+R"
       }
+    },
+    {
+      "hostType": "docker",
+      "matchHost": "https://611542441284.dkr.ecr.us-east-1.amazonaws.com",
+      "username": "AKIAY4YWFDVCJTZ34JNL",
+      "encrypted": {
+        "password": "wcFMA/xDdHCJBTolAQ//YSoXHQQka5xaNyQh4Xb2fHMxT8X5iP+z2N7S10skGwoTDWVkwWxBlFTohkgESupb586yLYZy6/bcoU8yNeeS3/B4aZ66jb1ML+UMu1fibvU/Fk3LoM8JrbPnR1qghx/llaMJgoeap1mOuizAFqsVY19PEV9W54m9PZyMvtfMVPJmUQ72rCep8zoglFei3JrAdCNF/mSgKS0Dsw/lJ/O5jMKiLxyuwnktQ3vhGkGuowjDN4l7p0BZgfuGEOo+BBOvrIgf59jDrBSVg8GOdnvhUI2N0vQh+bDAQtCzj/TcyTQ+A19bG9fvcu0BrxeYswE88fDPMG7j+bqmr9bZ0MXi7TraeRMGeXxA0kfPIvEE6OBNyCp77n5RfKF/PsUDuD0UcR+aPzHdHyFxktNJyLRD37oWNzfU2nOAv+VUV0xKx/AjJ9mE7jSTf3pQgPFbrEXNFAHGzNvPftmfWjRJcHv38wiL9NMgaVrKPwrWkFy3S45JVuzUluCXNX9h6E/LMkQnppKBoptYuhhpkBQU3FyAhpQdIsl3aqt++XaQTqIpnG8EeG3seslHZoor4IUcghYa4vs7Mc6dy/0ZC4Q701cQpiA7JgedMPIjL75yRdxlk54jqLonmRSNAtkcV4EH4jRsxGzHDL4gb9MqdGp4fR9rE+eZWI+1gh1yDW/lOXamrVrSdwHSIxa9s8fzaHKaYNhbrHRcuLh6V1/FmqFZTR7sqDnfbvewiTBcrLztX4ATO6tjy7F34QchrIWQEB1IbXUkRKdUnaFP0//8TFqwTKh/fwUl5N4Ii8PoC3vg07G+HyTesQV1RLPLv52HrRTO2RUbu7YBeX2MkJfB"
+      }
     }
   ]
 }
